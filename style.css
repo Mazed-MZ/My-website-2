@@ -5,6 +5,13 @@ h1{
     font-family: 'Russo One', sans-serif;
     font-size: 50px;
 }
+h2{
+    font-family: 'Russo One', sans-serif;
+    font-size: 50px;
+}
+h3{
+    font-family: 'Lemonada', cursive;
+}
 p{
     font-family: 'Lemonada', cursive;
 }
@@ -24,10 +31,38 @@ section{
     height: 500px;
 }
 .top-banner{
-    background-image: linear-gradient(90deg, white, darkorange);
+    background-image: linear-gradient(180deg, white, darkorange);
     height: 250px;
     background-repeat: no-repeat;
 }
 .side-intro{
     box-shadow: 10px 10px 22px gray;
+}
+.mid-part{
+    margin-top: 500px;
+    height: 220px;
+    background-image: linear-gradient(180deg, blue, whitesmoke);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+}
+.header-color{
+    color: whitesmoke;
+}
+.last-part{
+    float: left;
+    width: 40%;
+    box-shadow: 10px 10px 20px darkgrey;
+    margin: 2%;
+    padding: 3%;
+    height: 100%;
+    background-image: linear-gradient(180deg, orange, white, blue);
+}
+.final-sec{
+    margin-top: 0%;
+}
+#extro{
+    background-image: url("image 17.png");
+    padding: 400px;
+    margin: 250px;
+    background-size: 100%;
 }
