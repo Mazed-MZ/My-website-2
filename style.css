@@ -1,3 +1,6 @@
+body{
+    margin: 0%;
+}
 h1{
     font-family: 'Russo One', sans-serif;
     font-size: 50px;
@@ -7,4 +10,24 @@ p{
 }
 .title-color{
     color: brown;
+}
+.intro{
+    float: left;
+    width: 45%;
+    padding: 2%;
+    height: 600px;
+}
+.intro img{
+    width: 100%;
+}
+section{
+    height: 500px;
+}
+.top-banner{
+    background-color: thistle;
+    height: 250px;
+    background-size: 50%;
+}
+.side-intro{
+    box-shadow: 10px 10px 22px gray;
 }
